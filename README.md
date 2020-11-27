@@ -1,6 +1,6 @@
 # MOPSO
-Multi-objective particle swarm optimisation (MOPSO) coupled with CAE
+Multi-objective particle swarm optimisation
 
-Design optimisation using MOPSO algorithm is coupled with ANSYS Maxwell.
+Design optimisation is performed using MOPSO algorithm coupled with ANSYS Maxwell.
 
-Directories need to be changed according to local settings before running.
+Directories should be changed according to local settings before running.
