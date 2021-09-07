@@ -29,7 +29,7 @@ Set oDesktop = oAnsoftApp.GetAppDesktop()
 oDesktop.RestoreWindow
 Set oProject = oDesktop.NewProject
 
-oProject.SaveAs "J:/Coupler_optimization/MOPSO_CAE/0_0/case0_0.aedt", true
+oProject.SaveAs "D:/Coupler_optimization/MOPSO_CAE/0_0/case0_0.aedt", true
 Set oProject = oDesktop.SetActiveProject("case0_0")
 
 oProject.InsertDesign "Maxwell 3D", "Maxwell3DDesign1", "Magnetostatic", ""
@@ -1195,6 +1195,6 @@ oModule.CreateReport "Coupling Coeff Table 1", "Magnetostatic", "Data Table",  _
   "Nominal")), Array("X Component:=", "L1", "Y Component:=", Array( _
   "Matrix1.CplCoef(Current1,Current3)")), Array()
 oModule.ExportToFile "Coupling Coeff Table 1",  _
-  "J:/Coupler_optimization/MOPSO_CAE/0_0/case0_0_coupling_coefficient.csv"
+  "D:/Coupler_optimization/MOPSO_CAE/0_0/case0_0_coupling_coefficient.csv"
 oProject.Save
 oDesktop.CloseAllWindows()
